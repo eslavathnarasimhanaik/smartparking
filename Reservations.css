@@ -1,0 +1,242 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #0F172A; /* Deep Navy */
+    color: #E0E6F6; /* Soft White */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Navbar - Premium Look */
+.navbar {
+    background: linear-gradient(135deg, #1A2B48, #253856); /* Midnight Blue Gradient */
+    padding: 12px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar Logo */
+.navbar .logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #00FFA2; /* Emerald Green */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar .logo:hover {
+    transform: scale(1.05);
+}
+
+/* Navbar Links */
+.nav-links a {
+    color: #E0E6F6;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 15px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: #00FFA2;
+    transform: translateY(-2px);
+}
+
+/* Header - Elegant & Compact */
+header {
+    position: fixed;
+    top: 0;
+    width: 85%;
+    left: 7.5%;
+    background: rgba(26, 43, 72, 0.9);
+    backdrop-filter: blur(12px);
+    color: white;
+    text-align: center;
+    padding: 14px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 14px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    z-index: 1000;
+}
+
+/* Main Content */
+main {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    width: 100%;
+}
+
+/* Reservation Form */
+#reservation-form {
+    background: linear-gradient(145deg, #1B2A47, #273A57); /* Midnight Blue Gradient */
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 420px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+#reservation-form:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+#reservation-form h2 {
+    color: #00FFA2;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Input Fields */
+.input-group {
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    color: #E0E6F6;
+    margin-bottom: 6px;
+}
+
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 12px;
+    background: #1A2B48;
+    border: 2px solid #00FFA2;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #E0E6F6;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+    border-color: #00FFA2;
+    box-shadow: 0 0 10px rgba(0, 255, 162, 0.35);
+    outline: none;
+}
+
+/* Submit Button */
+button {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(45deg, #00FFA2, #00795A);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #00795A, #004D3A);
+    transform: scale(1.06);
+}
+
+/* Footer - Modern & Compact */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 85%;
+    left: 7.5%;
+    background: rgba(26, 43, 72, 0.9);
+    backdrop-filter: blur(12px);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 14px;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+    header, footer {
+        width: 95%;
+        left: 2.5%;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    main {
+        margin-top: 75px;
+    }
+
+    #reservation-form {
+        width: 95%;
+    }
+}
+
+/* Header - Compact & Stylish */
+header {
+    position: fixed;
+    top: 0;
+    width: 85%;
+    left: 7.5%;
+    background: linear-gradient(135deg, #182952, #254B73); /* New Dark Blue Gradient */
+    backdrop-filter: blur(12px);
+    color: white;
+    text-align: center;
+    padding: 8px; /* Reduced padding */
+    font-size: 18px; /* Slightly smaller text */
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    height: 50px; /* Reduced height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Header - Modern & Premium Look */
+header {
+    position: fixed;
+    top: 0;
+    width: 85%;
+    left: 7.5%;
+    background: linear-gradient(135deg, #1FAA59, #0F4C75); /* Emerald Green to Teal */
+    backdrop-filter: blur(12px);
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

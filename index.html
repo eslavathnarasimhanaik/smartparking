@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Parking System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="s.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-parking"></i> SmartPark
+            </a>
+            <div class="nav-links">
+                <a href="index.html"><i class="fas fa-home"></i> Home</a>
+                <a href="dashboard.html"><i class="fas fa-chart-bar"></i> Dashboard</a>
+                <a href="Reservations.html"><i class="fas fa-calendar-check"></i> Reservations</a>
+                <a href="Profile.html"><i class="fas fa-user"></i> Profile</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="header">
+            <h1>Smart Parking System</h1>
+            <p>Available Spaces: <span id="available-spaces">10</span></p>
+        </div>
+
+        <div class="status-indicator">
+            <div class="status-item">
+                <div class="parking-slot" style="width: 30px; height: 30px"></div>
+                <span>Available</span>
+            </div>
+            <div class="status-item">
+                <div class="parking-slot occupied" style="width: 30px; height: 30px"></div>
+                <span>Occupied</span>
+            </div>
+            <div class="status-item">
+                <div class="parking-slot vip" style="width: 30px; height: 30px"></div>
+                <span>VIP</span>
+            </div>
+        </div>
+
+        <div class="parking-grid" id="parkingGrid"></div>
+
+        <div class="overlay" id="overlay"></div>
+        <div class="reservation-form" id="reservationForm">
+            <h3>Reserve Parking Spot</h3>
+            <form id="reservationFormContent">
+                <div class="form-group">
+                    <label>Vehicle Number:</label>
+                    <input type="text" id="vehicleNumber" required>
+                </div>
+                <div class="form-group">
+                    <label>Duration (hours):</label>
+                    <input type="number" id="duration" min="1" value="1" required>
+                </div>
+                <button type="submit">Reserve Spot</button>
+                <button type="button" onclick="closeForm()">Cancel</button>
+            </form>
+        </div>
+    </div>
+    <div id="confirmation-message" style="display: none; text-align: center; font-size: 18px; color: green; margin-top: 20px;"></div>>
+
+    <script src="s.js"></script>
+</body>
+</html>
