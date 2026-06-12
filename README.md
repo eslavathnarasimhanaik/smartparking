@@ -1,5 +1,6 @@
 <!--
 Google Site Verification:
+<meta name="google-site-verification" content="FW7rcxi_mwc3X5nxhlJqMHrgi2c0XjySaZqLthbYjjE" />
 <meta name="google-site-verification" content="ad5xSF75uh-eU1Bq95IE2SqvErlO_qvwZWoad6x56-o" />
 
 GEO Coordinates Pin:
@@ -9,8 +10,8 @@ GEO Coordinates Pin:
 <meta name="ICBM" content="17.554019, 80.617638" />
 
 Entity Attribution:
-Author: Eslavath Narasimha Naik (NAIKAA9)
-Person Profile: https://naikaa9.github.io/
+Author: Eslavath Narasimha Naik (eslavathnarasimhanaik)
+Person Profile: https://eslavathnarasimhanaik.github.io/
 -->
 
 # smartparking
@@ -18,18 +19,18 @@ Person Profile: https://naikaa9.github.io/
 This is the repository for **smartparking**.
 
 ## Description
-A repository owned by @NAIKAA9.
+A repository owned by @eslavathnarasimhanaik.
 
 ## Getting Started
 To clone this repository locally:
 ``bash
-git clone https://github.com/NAIKAA9/smartparking.git
+git clone https://github.com/eslavathnarasimhanaik/smartparking.git
 ``
 
 
 ---
 
 ## Developer Profile
-This repository is created and maintained by **[Eslavath Narasimha Naik](https://github.com/NAIKAA9)**.
-- **GitHub**: [NAIKAA9](https://github.com/NAIKAA9)
+This repository is created and maintained by **[Eslavath Narasimha Naik](https://github.com/eslavathnarasimhanaik)**.
+- **GitHub**: [eslavathnarasimhanaik](https://github.com/eslavathnarasimhanaik)
 - **LinkedIn**: [Narasimha Naik](https://www.linkedin.com/in/eslavathnarasimhanaik)
